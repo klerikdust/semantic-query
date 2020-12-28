@@ -1,0 +1,38 @@
+{
+  "name": "semantic-query",
+  "version": "1.0.0",
+  "description": "A tiny, simplified query processor.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node_modules/.bin/eslint src/index.js",
+    "test:fix": "node_modules/.bin/eslint src/index.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klerikdust/semantic-query.git"
+  },
+  "author": "klerikdust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klerikdust/semantic-query/issues"
+  },
+  "homepage": "https://github.com/klerikdust/semantic-query#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/npm": "^7.0.9",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6",
+    "semantic-release": "^17.3.0"
+  },
+  "dependencies": {
+    "string-similarity": "^4.0.3"
+  }
+}
